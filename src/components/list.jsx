@@ -140,7 +140,7 @@ export default function List() {
   const totalPages = Math.ceil(tareasFiltradas.length / tareasPorPagina);
 
   return (
-    <div className="max-w-6xl mx-auto mt-2 p-6 rounded shadow bg-pink-200">
+    <div className="max-w-6xl mx-auto mt-2 p-6 rounded shadow bg-pink-200 top-1/2 left-1/2">
       {/* HEADER: Buscador + Filtros + Cerrar Sesión */}
       <div className="mb-10">
         <h1 className="text-2xl font-bold mb-6 text-center">LISTA DE TAREAS</h1>

@@ -61,41 +61,6 @@
       "creador": "Ana",
       "ultimoEditor": null,
       "fechaCreacion": "2025-09-19T21:17:24.590Z"
-    },
-    {
-      "id": "4d8e",
-      "titulo": "holaaa",
-      "descripcion": "srxdcfgvhj",
-      "prioridad": "media",
-      "estado": "pendiente",
-      "completed": false,
-      "creador": "Ana",
-      "ultimoEditor": null,
-      "fechaCreacion": "2025-09-19T22:45:19.556Z"
-    },
-    {
-      "id": 1758327151305,
-      "titulo": "srcvghj",
-      "descripcion": "seetrcyvh",
-      "prioridad": "media",
-      "estado": "pendiente",
-      "estadoAnterior": "",
-      "completed": false,
-      "creador": "Gaby",
-      "ultimoEditor": null,
-      "fechaCreacion": "2025-09-20T00:12:31.305Z"
-    },
-    {
-      "id": 1758327593569,
-      "titulo": "a<ezsrdgcfh",
-      "descripcion": "xxctfvgjjk",
-      "prioridad": "media",
-      "estado": "pendiente",
-      "estadoAnterior": "",
-      "completed": false,
-      "creador": "Gaby",
-      "ultimoEditor": null,
-      "fechaCreacion": "2025-09-20T00:19:53.569Z"
     }
   ]
 }
