@@ -31,8 +31,7 @@ export default function Login() {
 
       //guardamos datos en localStorage y redirigimos
       if (match) {
-        toast.success("✅ Inicio de sesión exitoso");
-        // setMensaje("✅ Inicio de sesión exitoso");
+        setMensaje("✅ Inicio de sesión exitoso");
         localStorage.setItem("usuarioLogueado", JSON.stringify({ id: user.id, nombre: user.nombre, email: user.email }));
         setTimeout(() => navigate("/list"), 100);
       } else { // si no coinciden los datos
