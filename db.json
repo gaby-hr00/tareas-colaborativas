@@ -41,26 +41,63 @@
     {
       "id": "44cb",
       "titulo": "rxcfvgbhjkj",
-      "descripcion": "see5rtyuybi",
-      "prioridad": "baja",
-      "estado": "pendiente",
-      "completed": false,
+      "descripcion": "see5rtyuybiw<zdxfcglkjdsbdshblehfbhhcfgghjkn djnfwsjbfwejbgwejbgwjbglwjbgwjgbwjn.sjgn",
+      "prioridad": "media",
+      "estado": "completado",
+      "completed": true,
       "creador": "Ana",
       "ultimoEditor": "Gaby",
       "fechaCreacion": "2025-09-19T21:17:18.806Z",
-      "fechaEdicion": "2025-09-20T00:21:03.331Z",
-      "estadoAnterior": ""
+      "fechaEdicion": "2025-09-27T15:10:09.339Z",
+      "estadoAnterior": "pendiente"
     },
     {
       "id": "7b4d",
       "titulo": "4etcryvubh",
       "descripcion": "likjgh",
-      "prioridad": "media",
+      "prioridad": "baja",
       "estado": "pendiente",
       "completed": false,
       "creador": "Ana",
+      "ultimoEditor": "Gaby",
+      "fechaCreacion": "2025-09-19T21:17:24.590Z",
+      "fechaEdicion": "2025-09-27T15:08:49.723Z"
+    },
+    {
+      "id": 1758985690787,
+      "titulo": "holaaa",
+      "descripcion": "dfghjklñ",
+      "prioridad": "media",
+      "estado": "pendiente",
+      "estadoAnterior": "",
+      "completed": false,
+      "creador": "Gaby",
       "ultimoEditor": null,
-      "fechaCreacion": "2025-09-19T21:17:24.590Z"
+      "fechaCreacion": "2025-09-27T15:08:10.787Z"
+    },
+    {
+      "id": 1758985777251,
+      "titulo": "sdfghjk",
+      "descripcion": "sdfghjkl",
+      "prioridad": "media",
+      "estado": "pendiente",
+      "estadoAnterior": "",
+      "completed": false,
+      "creador": "Gaby",
+      "ultimoEditor": null,
+      "fechaCreacion": "2025-09-27T15:09:37.251Z"
+    },
+    {
+      "id": 1758985786140,
+      "titulo": "buenasss",
+      "descripcion": "ñlkjhgf",
+      "prioridad": "media",
+      "estado": "pendiente",
+      "estadoAnterior": "",
+      "completed": false,
+      "creador": "Gaby",
+      "ultimoEditor": null,
+      "fechaCreacion": "2025-09-27T15:09:46.140Z"
     }
   ]
 }
