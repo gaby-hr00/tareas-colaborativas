@@ -33,7 +33,7 @@ export default function Login() {
       if (match) {
         setMensaje("✅ Inicio de sesión exitoso");
         localStorage.setItem("usuarioLogueado", JSON.stringify({ id: user.id, nombre: user.nombre, email: user.email }));
-        setTimeout(() => navigate("/list"), 100);
+        setTimeout(() => navigate("/list"), 200);
       } else { // si no coinciden los datos
         setMensaje("❌ Credenciales incorrectas");
       }
