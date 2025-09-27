@@ -2,11 +2,11 @@ import { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 import { toast } from "react-toastify";
 
-import TaskForm from "../components/form.jsx";
-import Buscador from "../components/search.jsx";
-import FiltrosTareas from "../components/Filters.jsx";
-import TodoItem from "../components/TodoItem.jsx";
-import Pagination from "../components/pagination.jsx";
+import TaskForm from "./form";
+import Buscador from "./search.jsx";
+import FiltrosTareas from "./Filters.jsx";
+import TodoItem from "./TodoItem";
+import Pagination from "./pagination.jsx";
 
 export default function List() {
 
