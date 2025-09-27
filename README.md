@@ -1,98 +1,162 @@
-# Lista de Tareas Colaborativa
-
-## La Lista de Tareas Colaborativa permite a varios usuarios trabajar sobre un mismo panel, permitiéndoles crear, consultar, filtrar y eliminar tareas. Los usuarios pueden observar en el panel quién es el autor de la tarea y quién fue su último editor. Además, pueden cambiar los estados y prioridades, así como marcar las tareas como completas.
-
-## La página cuenta con paginación y búsqueda por texto, lo que facilita la navegación y búsqueda de tareas, manteniendo el orden.
-
-# Instalación
-1. Clonar el Repositorio
-
-## Primero, clona el repositorio usando el siguiente comando:
-
-git clone https://github.com/gaby-hr00/tareas-colaborativas.git
-
-2. Acceder a la Carpeta del Proyecto
-
-## Entra a la carpeta del proyecto:
-
-cd tareas-colaborativas
-
-3. Instalar Dependencias
-
-## Instala las dependencias necesarias ejecutando:
-
-npm install
-
-
-## Además, instala json-server y axios de forma global (si no lo tienes ya instalado):
-
-npm install -g json-server
-npm install axios
-
-# Iniciar el Proyecto
-
-## Para iniciar la aplicación en modo desarrollo, ejecuta:
-
-npm run dev
-
-
-## Luego, abre el siguiente enlace en tu navegador:
-
-http://localhost:5173/
-
-# Iniciar el Servidor para la Base de Datos
-
-## En una terminal Git Bash o terminal adicional, inicia el servidor de base de datos json-server con el siguiente comando:
-
-json-server --watch db.json --port 5000
-
-
-## Verifica que en el archivo package.json, en la sección de scripts, exista la siguiente configuración:
-
-"start": "json-server --watch db.json --port 5000"
-
-
-## Una vez iniciado el servidor, abre los siguientes vínculos en tu navegador para verificar que todo está funcionando correctamente:
-
-http://localhost:5000/usuarios
-
-http://localhost:5000/tareas
-
-# Uso
-
-1. Acceder a la Página Principal
-
-## Una vez que los servidores estén en ejecución, abre la página principal en tu navegador. Al acceder, deberías encontrarte en el formulario de registro.
-
-2. Registrar una Cuenta
-
-## Diligencia tus datos siguiendo los estándares solicitados en el formulario de registro. Asegúrate de completar todos los campos necesarios.
-
-3. Verificar la Creación de la Cuenta
-
-## Verifica que tu nueva cuenta haya sido agregada correctamente en el servidor json-server. Puedes comprobarlo accediendo a la siguiente URL:
-
-http://localhost:5000/usuarios
-
-
-## Deberías ver los datos de tu cuenta en la lista de usuarios.
-
-4. Iniciar Sesión
-
-## Una vez registrado, puedes proceder a iniciar sesión con tus credenciales. Esto te permitirá acceder a todas las funcionalidades del panel de tareas colaborativas.
-
-5. Comenzar a Trabajar en Equipo
-
-## ¡Listo! Ahora puedes comenzar a trabajar en equipo. Ya podrás crear, editar y gestionar tareas y colaborar con otros usuarios.
-
-# Créditos
-
-## Autor: Ana Hernandez, Valentina Sierra, Camilo Silva
-
-## Dependencias: 
-  json-server
-  axios
-
-## Cada proyecto es diferente, por lo que puedes agregar o quitar secciones según lo que sea relevante para tu caso específico.
-
-
+<a name="readme-top"></a>
+ 
+ 
+<div align="center">
+ 
+<img src="logo.png" alt="logo" width="140" height="auto" style="border-radius:50%"   />
+<br/>
+<h3><b>NEWTORK SCRIPT PROJECT</b>
+ 
+</div>
+ 
+# ✅ TABLE OF CONTENTS
+- [📖 About the Project](#about-project)
+  - [⚒️ Build With](#built-with)
+    - [Tech Stack](#tech-stack)
+    - [Key Features](#key-features)
+  - [🚀 Live Demo](#live-demo)
+- [💻 Getting Started](#getting-started)
+   - [Setup](#setup)
+   -  [Prerequisites](#prerequisites)
+   - [Install](#install)
+   - [Usage](#usage)
+   - [Run tests](#run-tests)
+   - [Deployment](#deployment)
+- [👥 Authors](#authors)
+- [🕹️ Future Features](#future-features)
+- [🤝 Contributing](#contributing)
+- [⭐ Show your Support](#support)
+- [👏 Acknowledgements ](#ackknowledgements)
+- [❓ FAQ ](#faq)
+- [📃 License](#license)
+ 
+# 📖 [NETWORK SCRIPT PROJECT]<a name="about-project"></a>
+ 
+**[Networ Script Project]** This is a first project in SENA'S   SysAdmin Network Curriculum
+ 
+## ⚒️ Build With <a name="built-with"></a>
+ 
+<p>
+This Projects was built using:
+HTML, MARKDOWN AND SHELLSCRIPT, GIT, GITHUB
+</p>
+ 
+### Tech Stack <a name="tech-stack"></a>
+ 
+<li> HTML </li>
+<li> MARKDOWN </li>
+<li> SHELLSCRIPT </li>
+<li> GIT </li>
+<li> GITHUB </li>
+ 
+<details>
+<summary> Client </summary>
+<ul>
+<li><a href="https://developer.mozilla.org/es/docs/Web/HTML">HTML</a></li>    
+</ul>
+</details>
+ 
+<details>
+<summary>Markdown</summary>
+<ul>
+<li><a href="https://markdown.es/sintaxis-markdown/">Markdown</a></li>
+</ul>
+</details>
+ 
+ 
+### Key Features <a name="key-features"></a>
+ 
+<p align="right"><a href="#readme-top">Back to top</a></p>
+ 
+## 💻 Getting Started <a name="getting-started"></a>
+ 
+ 
+To get a local copy up and running follow these steps:
+ 
+### Prerequsites
+ 
+To run this project you need the following tools:
+ 
+- [VS Code]
+- [Git and GitHub]
+- [ShellScript ]
+ 
+### Setup
+ 
+Clone this respository  to your desired folder:
+ 
+```sh
+cd NEWTORK-SCRIPT
+git clone https://github.com/alyconr/Network-Shell-Script-.git
+```
+### Install
+ 
+Install This project with:
+ 
+```sh
+    ./networkScript.sh
+```
+ 
+### Usage
+ 
+To run the project, execute the following command:
+ 
+```sh
+./networkScript.sh
+```
+ 
+### Run Test
+ 
+To run test, run the following command or endpoint:
+ 
+```sh
+python -m unittest test_module.TestClass
+```
+ 
+ 
+### Deployment
+ 
+Deploy using your local enviroment
+ 
+<p align="right"><a href="#readme-top">Back to top</a></p>
+ 
+## 👥 Authors <a name="authors"></a>
+ 
+Jeysson Contreras
+ 
+🧑🏻‍💻 **Author 1**
+ 
+- GitHub: [@alyconr](https://github.com/alyconr)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/jeysson-aly-contreras)
+ 
+ 
+## 🕹️ Future Features <a name="future-features"></a>
+ 
+- [ ] **[Ping]**
+- [ ] **[Nslookup]**
+- [ ] **[BandWitdth Test]**
+ 
+ 
+## 🤝 Contributing <a name="contributing"></a>
+ 
+ 
+Contributions, issues, and  feature requests are welcome!
+ 
+Feel free tp check the [issues page](https://github.com/alyconr/Network-Shell-Script-/issues)
+ 
+ 
+## ⭐ Show your Support
+ 
+Wrrite a message to encourage readers to support your project
+ 
+If you like this project please give one start
+ 
+## 👏 Acknowledgements <a name="acknowledgements"></a>
+ 
+I would like to thank my learning teammates  and Sena Instructor
+ 
+## 📃 License <a name="license"></a>
+ 
+This Project is [MIT](./LICENSE.md) licensed
+ 
+<p align="right"><a href="#readme-top">Back to top</a></p>
