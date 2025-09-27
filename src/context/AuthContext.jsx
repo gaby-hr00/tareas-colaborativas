@@ -15,7 +15,7 @@ export function AuthProvider({ children }) {
     if (username === 'admin' && password === 'password') {
       setUser({ username: 'admin' })
       toast.success('Login exitoso!')
-      navigate('./components/list.jsx')
+      navigate('/list')
     } else {
       toast.error('Credenciales incorrectas')
     }
