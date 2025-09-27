@@ -4,6 +4,7 @@ import './index.css'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import { AuthProvider } from './context/AuthContext.jsx'
 import Login from './components/login.jsx'
+import List from './components/list.jsx'
 import PrivateRoute from './components/PrivateRoute.jsx'
 import { Navigate } from 'react-router-dom'
 import 'react-toastify/dist/ReactToastify.css'
@@ -25,8 +26,8 @@ ReactDOM.createRoot(document.getElementById('root')).render(
         <Route path="*" element={<Navigate to="/login" />} />
         {/* <Route path="/" element={<Navigate to="/registro" />} />
         <Route path="/registro" element={<Registro />} />
-        <Route path="/login" element={<Login />} />
-        <Route path="/list" element={<List />} /> */}
+        <Route path="/login" element={<Login />} />*/}
+        <Route path="/list" element={<List />} /> 
       </Routes>
       <ToastContainer position='top-right'  autoClose={3000} />
     </AuthProvider>
