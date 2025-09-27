@@ -12,8 +12,8 @@ function App() {
     <>
     <Router>
       <Routes>
-        <Route path="/" element={<Navigate to="/registro" />} />
-        <Route path="/registro" element={<Registro />} />
+        <Route path="/tareas-colaborativas" element={<Navigate to="/registro" />} />
+        <Route path="/tareas-colaborativas/registro" element={<Registro />} />
         <Route path="/login" element={<Login />} />
         <Route path="/list" element={<List />} />
       </Routes>
